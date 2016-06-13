@@ -38,3 +38,7 @@ A playground for code benchmarking
 ### ReadOnlyFiledVsNormalFieldBenchmark
 
 ![alt tag](https://raw.githubusercontent.com/LetMeCodeThis/Playground.Benchmarking/master/benchmark-images/ReadOnlyFiledVsNormalFieldBenchmark.png)
+
+### MethodGroupExpressionBenchmark
+
+![alt tag](https://raw.githubusercontent.com/LetMeCodeThis/Playground.Benchmarking/master/benchmark-images/MethodGroupExpressionBenchmark.png)

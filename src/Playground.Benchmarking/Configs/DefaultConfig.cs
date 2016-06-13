@@ -8,7 +8,7 @@
         public DefaultConfig()
         {
             this.Add(new MemoryDiagnoser());
-            this.Add(new InliningDiagnoser());
+            //this.Add(new InliningDiagnoser());
         }
     }
 }

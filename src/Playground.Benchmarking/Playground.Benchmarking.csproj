@@ -64,6 +64,7 @@
     <Compile Include="Benchmarks\DictionaryVsIDictionaryBenchmark.cs" />
     <Compile Include="Benchmarks\LinqWhereBenchmark.cs" />
     <Compile Include="Benchmarks\ListVsIEnumerableBenchmark.cs" />
+    <Compile Include="Benchmarks\MethodGroupExpressionBenchmark.cs" />
     <Compile Include="Benchmarks\MethodInvocationOverheadBenchmark.cs" />
     <Compile Include="Benchmarks\ReadOnlyFiledVsNormalFieldBenchmark.cs" />
     <Compile Include="Benchmarks\RedundantTypeSpecificationBenchmark.cs" />

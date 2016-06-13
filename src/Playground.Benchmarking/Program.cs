@@ -25,7 +25,8 @@
                             typeof(SimpleStringFormattingBenchmark),
                             typeof(StringFormatterBenchmark),
                             typeof(MethodInvocationOverheadBenchmark),
-                            typeof(UniValueGetValueBenchmark)
+                            typeof(UniValueGetValueBenchmark),
+                            typeof(MethodGroupExpressionBenchmark)
                         });
 
             switcher.Run(args);

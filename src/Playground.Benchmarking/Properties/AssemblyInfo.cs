@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Playground.Benchmarking")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Axa Direct Solutions SAS S A Uproszczona Oddział w Polsce")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Playground.Benchmarking")]
-[assembly: AssemblyCopyright("Copyright © Axa Direct Solutions SAS S A Uproszczona Oddział w Polsce 2016")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
