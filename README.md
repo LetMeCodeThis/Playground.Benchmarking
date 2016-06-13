@@ -15,7 +15,7 @@ A playground for code benchmarking
 
 ![alt tag](https://raw.githubusercontent.com/LetMeCodeThis/Playground.Benchmarking/master/benchmark-images/MethodInvocationOverheadBenchmark.png)
 
-### LinqWhereBenchmark
+### LinqWhereBenchmark ([benchmark source code](https://github.com/LetMeCodeThis/Playground.Benchmarking/blob/master/src/Playground.Benchmarking/Benchmarks/LinqWhereBenchmark.cs))
 
 ![alt tag](https://raw.githubusercontent.com/LetMeCodeThis/Playground.Benchmarking/master/benchmark-images/LinqWhereBenchmark.png)
 
