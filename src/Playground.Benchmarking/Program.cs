@@ -26,7 +26,15 @@
                             typeof(StringFormatterBenchmark),
                             typeof(MethodInvocationOverheadBenchmark),
                             typeof(UniValueGetValueBenchmark),
-                            typeof(MethodGroupExpressionBenchmark)
+                            typeof(MethodGroupExpressionBenchmark),
+                            typeof(CostOfIsSubclassOfBenchmark),
+                            typeof(StringEmptyBenchmark),
+                            typeof(InliningWithThrowBenchmark),
+                            typeof(HashSetVsUnsafeArrayLookupBenchmark),
+                            typeof(InstructionLevelParallelism),
+                            typeof(IsPrimeBenchmark),
+                            typeof(LoopVariableBenchmark),
+                            typeof(FalseSharingBenchmark)
                         });
 
             switcher.Run(args);

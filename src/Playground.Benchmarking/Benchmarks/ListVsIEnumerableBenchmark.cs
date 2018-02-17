@@ -10,6 +10,7 @@
     public class ListVsIEnumerableBenchmark
     {
         private List<string> list;
+        private IList<string> ilist;
         private IEnumerable<string> enumerable;
 
         [Params(0, 10, 100, 1000, 10000)]
@@ -19,6 +20,7 @@
         public void Setup()
         {
             this.list = this.GetList(this.CollectionSize);
+            this.ilist = this.list;
             this.enumerable = this.list;
         }
 
@@ -26,6 +28,14 @@
         public void ListEnumeration()
         {
             foreach (var item in this.list)
+            {
+            }
+        }
+
+        [Benchmark]
+        public void IListEnumeration()
+        {
+            foreach (var item in this.ilist)
             {
             }
         }

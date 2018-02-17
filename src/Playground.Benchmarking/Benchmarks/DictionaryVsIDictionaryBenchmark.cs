@@ -4,7 +4,7 @@
 
     using BenchmarkDotNet.Attributes;
     using BenchmarkDotNet.Configs;
-    using BenchmarkDotNet.Diagnostics.Windows;
+    using BenchmarkDotNet.Diagnosers;
 
     [Config(typeof(BenchmarkConfig))]
     public class DictionaryVsIDictionaryBenchmark

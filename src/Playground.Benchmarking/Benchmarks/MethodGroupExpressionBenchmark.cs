@@ -6,8 +6,7 @@
 
     using BenchmarkDotNet.Attributes;
     using BenchmarkDotNet.Configs;
-    using BenchmarkDotNet.Diagnostics.Windows;
-    using BenchmarkDotNet.Jobs;
+    using BenchmarkDotNet.Diagnosers;
 
     [Config(typeof(MethodGroupExpressionBenchmarkConfig))]
     public class MethodGroupExpressionBenchmark

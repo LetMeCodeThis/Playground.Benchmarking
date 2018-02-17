@@ -1,7 +1,7 @@
 ﻿namespace Playground.Benchmarking.Configs
 {
     using BenchmarkDotNet.Configs;
-    using BenchmarkDotNet.Diagnostics.Windows;
+    using BenchmarkDotNet.Diagnosers;
 
     public class DefaultConfig : ManualConfig
     {
